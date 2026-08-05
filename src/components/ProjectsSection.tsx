@@ -30,8 +30,8 @@ const projects: Project[] = [
       "A flagship enterprise retail mobile banking application built for Dukhan Bank. Features biometrically secured user authentication, real-time account balances, international wire transfers, gold trading updates, and interactive transaction analytics.",
     tech: ["Flutter", "Riverpod", "Clean Architecture", "REST APIs", "Dio", "Biometrics"],
     image: "/dukhan-bank.png",
-    githubUrl: "https://github.com",
-    demoUrl: "https://dukhanbank.com",
+    githubUrl: "",
+    demoUrl: "",
     features: [
       "Biometric FaceID / TouchID authentication flow",
       "Real-time gold transaction monitoring & charts",
@@ -49,8 +49,8 @@ const projects: Project[] = [
       "A comprehensive smart residence and gated community management platform. Allows homeowners and tenants to generate digital gate access QR passes for visitors, receive instant push notifications for package deliveries, submit maintenance tickets, and trigger instant SOS emergency alerts.",
     tech: ["Flutter", "Firebase", "GetX", "Cloud Firestore", "FCM Push Notifications"],
     image: "/vistiq.png",
-    githubUrl: "https://github.com",
-    demoUrl: "https://vistiq.app",
+    githubUrl: "https://github.com/inshad02/VistiQ-Main-Project-",
+    demoUrl: "",
     features: [
       "Dynamic QR code generator for guest gate pass validation",
       "Package locker tracking with instant delivery alerts",
@@ -68,8 +68,8 @@ const projects: Project[] = [
       "A sleek modern mobile social chat application engineered with FlutterFlow and Firebase backend services. Supports real-time 1-on-1 instant messaging, voice note waveform player, online presence indicators, and group chat channels.",
     tech: ["FlutterFlow", "Firebase Auth", "Cloud Firestore", "Audio Waveforms"],
     image: "/heyo-chat.png",
-    githubUrl: "https://github.com",
-    demoUrl: "https://heyo-chat.app",
+    githubUrl: "",
+    demoUrl: "",
     features: [
       "Instant messaging powered by Cloud Firestore listeners",
       "Voice note recording & glowing waveform audio playback",

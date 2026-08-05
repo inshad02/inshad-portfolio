@@ -11,7 +11,7 @@ import {
   Sparkles,
   CheckCircle2,
 } from "lucide-react";
-import { FaGithub, FaLinkedin } from "react-icons/fa6";
+import { FaGithub, FaLinkedin, FaInstagram, FaWhatsapp } from "react-icons/fa6";
 
 export default function ContactSection() {
   const [formData, setFormData] = useState({
@@ -101,7 +101,27 @@ export default function ContactSection() {
                       href="mailto:inshad.dev@gmail.com"
                       className="text-sm font-semibold text-white hover:text-[#D4AF37] transition-colors"
                     >
-                      inshad.dev@gmail.com
+                      inshadkorambayil@gmail.com
+                    </a>
+                  </div>
+                </div>
+
+                {/* WhatsApp & Phone */}
+                <div className="flex items-center gap-4 group">
+                  <div className="p-3.5 rounded-2xl bg-[#D4AF37]/10 border border-[#D4AF37]/30 text-[#D4AF37] group-hover:bg-[#D4AF37] group-hover:text-[#0B0B0B] transition-colors">
+                    <FaWhatsapp className="w-5 h-5" />
+                  </div>
+                  <div>
+                    <span className="block text-[11px] uppercase tracking-wider text-neutral-500 font-semibold">
+                      WhatsApp / Phone
+                    </span>
+                    <a
+                      href="https://wa.me/919061416397"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm font-semibold text-white hover:text-[#D4AF37] transition-colors"
+                    >
+                      +91 9061416397
                     </a>
                   </div>
                 </div>
@@ -116,7 +136,7 @@ export default function ContactSection() {
                       Location
                     </span>
                     <span className="text-sm font-semibold text-white">
-                      Dubai, United Arab Emirates
+                      Kerala, India
                     </span>
                   </div>
                 </div>
@@ -142,12 +162,12 @@ export default function ContactSection() {
                 <span className="block text-xs uppercase tracking-wider text-neutral-400 font-semibold mb-4">
                   Connect Online
                 </span>
-                <div className="flex items-center gap-4">
+                <div className="flex flex-wrap items-center gap-3">
                   <a
-                    href="https://github.com"
+                    href="https://github.com/inshad02"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-2 px-4 py-2.5 rounded-xl bg-[#1A1A1E] border border-white/10 hover:border-[#D4AF37] text-xs font-semibold text-white transition-all hover:bg-[#D4AF37]/10"
+                    className="flex items-center gap-2 px-3.5 py-2 rounded-xl bg-[#1A1A1E] border border-white/10 hover:border-[#D4AF37] text-xs font-semibold text-white transition-all hover:bg-[#D4AF37]/10"
                   >
                     <FaGithub className="w-4 h-4 text-[#D4AF37]" />
                     GitHub
@@ -156,10 +176,28 @@ export default function ContactSection() {
                     href="https://linkedin.com"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-2 px-4 py-2.5 rounded-xl bg-[#1A1A1E] border border-white/10 hover:border-[#D4AF37] text-xs font-semibold text-white transition-all hover:bg-[#D4AF37]/10"
+                    className="flex items-center gap-2 px-3.5 py-2 rounded-xl bg-[#1A1A1E] border border-white/10 hover:border-[#D4AF37] text-xs font-semibold text-white transition-all hover:bg-[#D4AF37]/10"
                   >
                     <FaLinkedin className="w-4 h-4 text-[#D4AF37]" />
                     LinkedIn
+                  </a>
+                  <a
+                    href="https://www.instagram.com/inshad.k_?igsh=MTd5bWNyYmp1eWdnYQ%3D%3D&utm_source=qr"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 px-3.5 py-2 rounded-xl bg-[#1A1A1E] border border-white/10 hover:border-[#D4AF37] text-xs font-semibold text-white transition-all hover:bg-[#D4AF37]/10"
+                  >
+                    <FaInstagram className="w-4 h-4 text-[#D4AF37]" />
+                    Instagram
+                  </a>
+                  <a
+                    href="https://wa.me/919061416397"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 px-3.5 py-2 rounded-xl bg-[#1A1A1E] border border-white/10 hover:border-[#D4AF37] text-xs font-semibold text-white transition-all hover:bg-[#D4AF37]/10"
+                  >
+                    <FaWhatsapp className="w-4 h-4 text-[#D4AF37]" />
+                    WhatsApp
                   </a>
                 </div>
               </div>

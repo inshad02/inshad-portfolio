@@ -34,12 +34,20 @@ export default function ResumeModal({ isOpen, onClose }: ResumeModalProps) {
               </h2>
             </div>
             <div className="flex items-center gap-3">
+              <a
+                href="/resume.pdf"
+                download="Muhammed_Inshad_Resume.pdf"
+                className="flex items-center gap-1.5 px-4 py-2 rounded-xl bg-gold-gradient text-[#0B0B0B] font-bold text-xs uppercase tracking-wider shadow-[0_0_15px_rgba(212,175,55,0.3)] hover:opacity-95 transition-all"
+              >
+                <Download className="w-4 h-4" />
+                Download PDF
+              </a>
               <button
                 onClick={handlePrint}
-                className="flex items-center gap-1.5 px-4 py-2 rounded-xl bg-gold-gradient text-[#0B0B0B] font-bold text-xs uppercase tracking-wider shadow-[0_0_15px_rgba(212,175,55,0.3)] hover:opacity-90 transition-all"
+                className="flex items-center gap-1.5 px-3 py-2 rounded-xl bg-[#1A1A1E] border border-white/10 hover:border-[#D4AF37] text-neutral-300 hover:text-white text-xs font-semibold transition-all"
               >
-                <Printer className="w-4 h-4" />
-                Print / Save PDF
+                <Printer className="w-4 h-4 text-[#D4AF37]" />
+                Print
               </button>
               <button
                 onClick={onClose}
@@ -65,11 +73,15 @@ export default function ResumeModal({ isOpen, onClose }: ResumeModalProps) {
               <div className="space-y-1 text-xs text-neutral-400 print:text-gray-700 font-mono">
                 <div className="flex items-center gap-2">
                   <MapPin className="w-3.5 h-3.5 text-[#D4AF37]" />
-                  <span>Dubai, United Arab Emirates</span>
+                  <span>Kerala, India</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Mail className="w-3.5 h-3.5 text-[#D4AF37]" />
-                  <span>inshad.dev@gmail.com</span>
+                  <a href="mailto:inshadkorambayil@gmail.com" className="hover:text-[#D4AF37]">inshadkorambayil@gmail.com</a>
+                </div>
+                <div className="flex items-center gap-2">
+                  <Phone className="w-3.5 h-3.5 text-[#D4AF37]" />
+                  <a href="https://wa.me/919061416397" target="_blank" rel="noopener noreferrer" className="hover:text-[#D4AF37]">+91 9061416397</a>
                 </div>
               </div>
             </div>

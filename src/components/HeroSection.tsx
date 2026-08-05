@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { ArrowDown, Mail, Sparkles, Smartphone, ShieldCheck, Zap } from "lucide-react";
-import { FaGithub, FaLinkedin } from "react-icons/fa6";
+import { FaGithub, FaLinkedin, FaInstagram, FaWhatsapp } from "react-icons/fa6";
 
 interface HeroSectionProps {
   onOpenResume: () => void;
@@ -119,13 +119,15 @@ export default function HeroSection({ onOpenResume }: HeroSectionProps) {
                 <ArrowDown className="w-4 h-4 text-[#0B0B0B]" />
               </a>
 
-              <button
+              <a
+                href="/resume.pdf"
+                download="Muhammed_Inshad_Resume.pdf"
                 onClick={onOpenResume}
                 className="w-full sm:w-auto px-8 py-4 rounded-xl bg-[#121214] text-[#D4AF37] font-bold font-heading text-sm uppercase tracking-wider border border-[#D4AF37]/40 hover:border-[#D4AF37] hover:bg-[#D4AF37]/10 transition-all duration-300 shadow-[0_0_20px_rgba(212,175,55,0.1)] text-center flex items-center justify-center gap-2"
               >
                 <Sparkles className="w-4 h-4 text-[#D4AF37]" />
                 Download Resume
-              </button>
+              </a>
             </motion.div>
 
             {/* Social Links */}
@@ -141,7 +143,7 @@ export default function HeroSection({ onOpenResume }: HeroSectionProps) {
               <div className="h-px w-8 bg-neutral-800" />
               <div className="flex items-center gap-4">
                 <a
-                  href="https://github.com"
+                  href="https://github.com/inshad02"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2.5 rounded-xl bg-[#121214] border border-[#D4AF37]/20 hover:border-[#D4AF37] text-neutral-400 hover:text-[#D4AF37] transition-all duration-300 shadow-[0_0_15px_rgba(0,0,0,0.5)] transform hover:-translate-y-1"
@@ -159,7 +161,25 @@ export default function HeroSection({ onOpenResume }: HeroSectionProps) {
                   <FaLinkedin className="w-5 h-5" />
                 </a>
                 <a
-                  href="mailto:inshad.dev@gmail.com"
+                  href="https://www.instagram.com/inshad.k_?igsh=MTd5bWNyYmp1eWdnYQ%3D%3D&utm_source=qr"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-2.5 rounded-xl bg-[#121214] border border-[#D4AF37]/20 hover:border-[#D4AF37] text-neutral-400 hover:text-[#D4AF37] transition-all duration-300 shadow-[0_0_15px_rgba(0,0,0,0.5)] transform hover:-translate-y-1"
+                  aria-label="Instagram Profile"
+                >
+                  <FaInstagram className="w-5 h-5" />
+                </a>
+                <a
+                  href="https://wa.me/919061416397"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-2.5 rounded-xl bg-[#121214] border border-[#D4AF37]/20 hover:border-[#D4AF37] text-neutral-400 hover:text-[#D4AF37] transition-all duration-300 shadow-[0_0_15px_rgba(0,0,0,0.5)] transform hover:-translate-y-1"
+                  aria-label="WhatsApp Contact"
+                >
+                  <FaWhatsapp className="w-5 h-5" />
+                </a>
+                <a
+                  href="mailto:inshadkorambayil@gmail.com"
                   className="p-2.5 rounded-xl bg-[#121214] border border-[#D4AF37]/20 hover:border-[#D4AF37] text-neutral-400 hover:text-[#D4AF37] transition-all duration-300 shadow-[0_0_15px_rgba(0,0,0,0.5)] transform hover:-translate-y-1"
                   aria-label="Email Contact"
                 >
@@ -206,7 +226,7 @@ export default function HeroSection({ onOpenResume }: HeroSectionProps) {
                       </p>
                     </div>
                     <div className="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-[#D4AF37]/15 border border-[#D4AF37]/40 text-[10px] font-bold text-[#D4AF37] tracking-wider uppercase">
-                      Dubai, UAE
+                      Kerala, India
                     </div>
                   </div>
                 </div>

@@ -51,7 +51,7 @@ export default function InitialLoader() {
               transition={{ duration: 0.6, delay: 0.3 }}
               className="text-xs text-[#D4AF37] tracking-widest font-mono uppercase mb-8"
             >
-              Flutter Developer Portfolio
+              Flutter Developer
             </motion.p>
 
             {/* Gold Loading Line */}

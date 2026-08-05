@@ -100,13 +100,15 @@ export default function Navbar({ onOpenResume }: NavbarProps) {
 
         {/* Action Buttons */}
         <div className="hidden md:flex items-center gap-4">
-          <button
+          <a
+            href="/resume.pdf"
+            download="Muhammed_Inshad_Resume.pdf"
             onClick={onOpenResume}
             className="flex items-center gap-2 px-4 py-2 text-xs font-semibold uppercase tracking-wider text-[#D4AF37] border border-[#D4AF37]/30 hover:border-[#D4AF37] rounded-full bg-[#121214]/60 hover:bg-[#D4AF37]/10 transition-all duration-300 shadow-[0_0_15px_rgba(212,175,55,0.1)]"
           >
             <Sparkles className="w-3.5 h-3.5 text-[#D4AF37]" />
             Resume
-          </button>
+          </a>
           <a
             href="#contact"
             className="group flex items-center gap-1.5 px-5 py-2 text-xs font-bold uppercase tracking-wider text-[#0B0B0B] bg-gold-gradient hover:opacity-95 rounded-full shadow-[0_0_20px_rgba(212,175,55,0.3)] transition-all duration-300 transform hover:scale-[1.03]"
@@ -159,15 +161,17 @@ export default function Navbar({ onOpenResume }: NavbarProps) {
                 </a>
               ))}
               <div className="pt-4 flex flex-col gap-3">
-                <button
+                <a
+                  href="/resume.pdf"
+                  download="Muhammed_Inshad_Resume.pdf"
                   onClick={() => {
                     setMobileMenuOpen(false);
                     onOpenResume();
                   }}
-                  className="w-full py-3 text-center text-sm font-semibold text-[#D4AF37] border border-[#D4AF37]/40 rounded-xl bg-[#121214]"
+                  className="w-full py-3 text-center text-sm font-semibold text-[#D4AF37] border border-[#D4AF37]/40 rounded-xl bg-[#121214] block"
                 >
                   Download Resume
-                </button>
+                </a>
                 <a
                   href="#contact"
                   onClick={() => setMobileMenuOpen(false)}

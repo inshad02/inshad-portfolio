@@ -103,7 +103,7 @@ export default function AboutSection() {
                   Location
                 </span>
                 <span className="text-sm font-semibold text-white">
-                  Dubai, United Arab Emirates
+                  Kerala, India
                 </span>
               </div>
               <div>

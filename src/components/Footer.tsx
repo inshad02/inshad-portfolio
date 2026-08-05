@@ -1,6 +1,7 @@
 "use client";
 
-import { ArrowUp, Sparkles } from "lucide-react";
+import { ArrowUp, Mail } from "lucide-react";
+import { FaGithub, FaLinkedin, FaInstagram, FaWhatsapp } from "react-icons/fa6";
 
 export default function Footer() {
   const scrollToTop = () => {
@@ -25,12 +26,54 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Center: Copyright */}
-        <div className="text-xs text-center text-neutral-500 font-light">
+        {/* Center: Social Links & Copyright */}
+        <div className="flex flex-col items-center gap-3 text-xs text-center text-neutral-500 font-light">
+          <div className="flex items-center gap-4 text-neutral-400">
+            <a
+              href="https://github.com/inshad02"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 rounded-lg bg-[#121214] border border-[#D4AF37]/20 hover:border-[#D4AF37] text-neutral-400 hover:text-[#D4AF37] transition-all"
+              aria-label="GitHub Profile"
+            >
+              <FaGithub className="w-4 h-4" />
+            </a>
+            <a
+              href="https://linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 rounded-lg bg-[#121214] border border-[#D4AF37]/20 hover:border-[#D4AF37] text-neutral-400 hover:text-[#D4AF37] transition-all"
+              aria-label="LinkedIn Profile"
+            >
+              <FaLinkedin className="w-4 h-4" />
+            </a>
+            <a
+              href="https://www.instagram.com/inshad.k_?igsh=MTd5bWNyYmp1eWdnYQ%3D%3D&utm_source=qr"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 rounded-lg bg-[#121214] border border-[#D4AF37]/20 hover:border-[#D4AF37] text-neutral-400 hover:text-[#D4AF37] transition-all"
+              aria-label="Instagram Profile"
+            >
+              <FaInstagram className="w-4 h-4" />
+            </a>
+            <a
+              href="https://wa.me/919061416397"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 rounded-lg bg-[#121214] border border-[#D4AF37]/20 hover:border-[#D4AF37] text-neutral-400 hover:text-[#D4AF37] transition-all"
+              aria-label="WhatsApp Contact"
+            >
+              <FaWhatsapp className="w-4 h-4" />
+            </a>
+            <a
+              href="mailto:inshadkorambayil@gmail.com"
+              className="p-2 rounded-lg bg-[#121214] border border-[#D4AF37]/20 hover:border-[#D4AF37] text-neutral-400 hover:text-[#D4AF37] transition-all"
+              aria-label="Email Contact"
+            >
+              <Mail className="w-4 h-4" />
+            </a>
+          </div>
           <p>© {new Date().getFullYear()} Muhammed Inshad. All rights reserved.</p>
-          <p className="mt-1 text-neutral-400 font-medium">
-            Designed & Developed by <span className="text-[#D4AF37]">Muhammed Inshad</span>
-          </p>
         </div>
 
         {/* Right: Scroll to top */}
