@@ -16,7 +16,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://muhammedinshad.dev"),
-  title: "Muhammed Inshad | Premium Flutter Developer Portfolio",
+  title: "Muhammed Inshad | Flutter Developer",
   description:
     "Flutter Developer with 2+ years of experience building secure, scalable fintech and business applications using Flutter, Riverpod, Firebase, REST APIs, and Clean Architecture.",
   keywords: [
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Muhammed Inshad" }],
   openGraph: {
-    title: "Muhammed Inshad | Premium Flutter Developer",
+    title: "Muhammed Inshad | Flutter Developer",
     description:
       "Building premium cross-platform mobile applications with Flutter, Riverpod, Firebase, & Clean Architecture.",
     url: "https://muhammedinshad.dev",
