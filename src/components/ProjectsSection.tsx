@@ -25,7 +25,7 @@ const projects: Project[] = [
     title: "Dukhan Bank Retail Banking App",
     category: "FinTech",
     description:
-      "Developed secure banking features with scalable architecture and seamless mobile experience.",
+      "Developed secure banking features with scalable architecture and seamless mobile experience in associate with Omnicore digital solutions.",
     longDescription:
       "A flagship enterprise retail mobile banking application built for Dukhan Bank. Features biometrically secured user authentication, real-time account balances, international wire transfers, gold trading updates, and interactive transaction analytics.",
     tech: ["Flutter", "Riverpod", "Clean Architecture", "REST APIs", "Dio", "Biometrics"],

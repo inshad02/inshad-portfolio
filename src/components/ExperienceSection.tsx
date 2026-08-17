@@ -17,7 +17,7 @@ const experiences: ExperienceItem[] = [
     company: "Omnicore Digital Solutions",
     role: "Flutter Developer",
     location: "Dubai, UAE",
-    period: "2025 - Present",
+    period: "2025 - 2026",
     type: "Full-Time",
     highlights: [
       "Engineered secure, production-ready fintech applications for financial institutions.",
@@ -82,9 +82,8 @@ export default function ExperienceSection() {
               return (
                 <div
                   key={exp.company}
-                  className={`relative flex flex-col sm:flex-row items-start ${
-                    isEven ? "sm:flex-row-reverse" : ""
-                  }`}
+                  className={`relative flex flex-col sm:flex-row items-start ${isEven ? "sm:flex-row-reverse" : ""
+                    }`}
                 >
                   {/* Glowing Node Dot */}
                   <div className="absolute left-4 sm:left-1/2 top-6 transform -translate-x-1/2 -translate-y-1/2 z-20">
@@ -99,9 +98,8 @@ export default function ExperienceSection() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.7, delay: idx * 0.2 }}
-                    className={`ml-12 sm:ml-0 w-full sm:w-[calc(50%-2.5rem)] p-8 rounded-3xl bg-[#121214]/80 border border-[#D4AF37]/20 hover:border-[#D4AF37]/50 backdrop-blur-xl transition-all duration-300 shadow-[0_10px_30px_rgba(0,0,0,0.6)] hover:shadow-[0_0_30px_rgba(212,175,55,0.2)] group ${
-                      isEven ? "sm:mr-auto" : "sm:ml-auto"
-                    }`}
+                    className={`ml-12 sm:ml-0 w-full sm:w-[calc(50%-2.5rem)] p-8 rounded-3xl bg-[#121214]/80 border border-[#D4AF37]/20 hover:border-[#D4AF37]/50 backdrop-blur-xl transition-all duration-300 shadow-[0_10px_30px_rgba(0,0,0,0.6)] hover:shadow-[0_0_30px_rgba(212,175,55,0.2)] group ${isEven ? "sm:mr-auto" : "sm:ml-auto"
+                      }`}
                   >
                     {/* Role & Period Badges */}
                     <div className="flex flex-wrap items-center justify-between gap-2 mb-3">

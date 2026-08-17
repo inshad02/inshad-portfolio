@@ -111,7 +111,7 @@ export default function AboutSection() {
                   Specialization
                 </span>
                 <span className="text-sm font-semibold text-[#D4AF37]">
-                  FinTech & Cross-Platform
+                  Cross-Platform Mobile application development
                 </span>
               </div>
             </div>
