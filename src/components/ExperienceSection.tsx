@@ -45,10 +45,10 @@ const experiences: ExperienceItem[] = [
 
 export default function ExperienceSection() {
   return (
-    <section id="experience" className="py-24 relative z-10 bg-[#0B0B0B]">
-      <div className="max-w-7xl mx-auto px-6 md:px-12">
+    <section id="experience" className="py-16 sm:py-24 relative z-10 bg-[#0B0B0B]">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-12">
         {/* Section Header */}
-        <div className="flex flex-col items-center text-center mb-20">
+        <div className="flex flex-col items-center text-center mb-12 sm:mb-20">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -76,7 +76,7 @@ export default function ExperienceSection() {
           {/* Vertical Glowing Line */}
           <div className="absolute left-4 sm:left-1/2 top-0 bottom-0 w-[2px] bg-gradient-to-b from-[#D4AF37] via-[#996515] to-transparent transform -translate-x-1/2 shadow-[0_0_15px_#D4AF37]" />
 
-          <div className="space-y-16">
+          <div className="space-y-10 sm:space-y-16">
             {experiences.map((exp, idx) => {
               const isEven = idx % 2 === 0;
               return (
@@ -98,7 +98,7 @@ export default function ExperienceSection() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.7, delay: idx * 0.2 }}
-                    className={`ml-12 sm:ml-0 w-full sm:w-[calc(50%-2.5rem)] p-8 rounded-3xl bg-[#121214]/80 border border-[#D4AF37]/20 hover:border-[#D4AF37]/50 backdrop-blur-xl transition-all duration-300 shadow-[0_10px_30px_rgba(0,0,0,0.6)] hover:shadow-[0_0_30px_rgba(212,175,55,0.2)] group ${isEven ? "sm:mr-auto" : "sm:ml-auto"
+                    className={`ml-10 sm:ml-0 w-[calc(100%-2.5rem)] sm:w-[calc(50%-2.5rem)] p-5 sm:p-8 rounded-3xl bg-[#121214]/80 border border-[#D4AF37]/20 hover:border-[#D4AF37]/50 backdrop-blur-xl transition-all duration-300 shadow-[0_10px_30px_rgba(0,0,0,0.6)] hover:shadow-[0_0_30px_rgba(212,175,55,0.2)] group ${isEven ? "sm:mr-auto" : "sm:ml-auto"
                       }`}
                   >
                     {/* Role & Period Badges */}
@@ -113,12 +113,12 @@ export default function ExperienceSection() {
                     </div>
 
                     {/* Title & Company */}
-                    <h3 className="text-2xl font-bold font-heading text-white mb-1 group-hover:text-[#D4AF37] transition-colors">
+                    <h3 className="text-xl sm:text-2xl font-bold font-heading text-white mb-1 group-hover:text-[#D4AF37] transition-colors">
                       {exp.role}
                     </h3>
-                    <div className="flex items-center gap-3 text-sm text-[#D4AF37] font-medium mb-4">
+                    <div className="flex flex-wrap items-center gap-2 sm:gap-3 text-sm text-[#D4AF37] font-medium mb-4">
                       <span className="font-semibold">{exp.company}</span>
-                      <span>•</span>
+                      <span className="hidden sm:inline">•</span>
                       <div className="flex items-center gap-1 text-neutral-400 text-xs">
                         <MapPin className="w-3 h-3 text-[#D4AF37]" />
                         {exp.location}
@@ -146,3 +146,4 @@ export default function ExperienceSection() {
     </section>
   );
 }
+
