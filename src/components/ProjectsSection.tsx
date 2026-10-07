@@ -66,15 +66,13 @@ const projects: Project[] = [
       "Real-time chat application using Firebase Authentication and Cloud Firestore.",
     longDescription:
       "A sleek modern mobile social chat application engineered with FlutterFlow and Firebase backend services. Supports real-time 1-on-1 instant messaging, voice note waveform player, online presence indicators, and group chat channels.",
-    tech: ["FlutterFlow", "Firebase Auth", "Cloud Firestore", "Audio Waveforms"],
-    image: "/heyo-chat.png",
+    tech: ["FlutterFlow", "Firebase Auth", "Cloud Firestore", ],
+    image: "/heyo.png",
     githubUrl: "",
     demoUrl: "",
     features: [
       "Instant messaging powered by Cloud Firestore listeners",
-      "Voice note recording & glowing waveform audio playback",
       "Real-time online/offline user status tracking",
-      "Secure user profile management and media sharing",
     ],
   },
 ];
