@@ -92,7 +92,7 @@ export default function ResumeModal({ isOpen, onClose }: ResumeModalProps) {
                 Executive Profile
               </h3>
               <p className="text-sm text-neutral-300 print:text-gray-800 leading-relaxed font-light">
-                Flutter Developer with 2+ years of experience building secure, scalable fintech and business applications using Flutter, Riverpod, Firebase, REST APIs, and Clean Architecture. Passionate about engineering high-performance mobile software, modular architecture, and sleek luxury user interfaces.
+                Flutter Developer with 1.5+ years of experience building secure, scalable fintech and business applications using Flutter, Riverpod, Firebase, REST APIs, and Clean Architecture. Passionate about engineering high-performance mobile software, modular architecture, and sleek luxury user interfaces.
               </p>
             </div>
 

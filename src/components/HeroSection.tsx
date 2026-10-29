@@ -80,7 +80,7 @@ export default function HeroSection({ onOpenResume }: HeroSectionProps) {
               transition={{ duration: 0.7, delay: 0.7 }}
               className="text-sm sm:text-base text-neutral-400 mb-8 max-w-2xl leading-relaxed font-light"
             >
-              Flutter Developer with 2+ years of experience building secure, scalable fintech and business applications using Flutter, Riverpod, Firebase, REST APIs, and Clean Architecture.
+              Flutter Developer with 1.5+ years of experience building secure, scalable fintech and business applications using Flutter, Riverpod, Firebase, REST APIs, and Clean Architecture.
             </motion.p>
 
             {/* Feature Highlights Pills */}

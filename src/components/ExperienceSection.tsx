@@ -17,7 +17,7 @@ const experiences: ExperienceItem[] = [
     company: "Omnicore Digital Solutions",
     role: "Flutter Developer",
     location: "Dubai, UAE",
-    period: "2025 - 2026",
+    period: "August/2025 - August/2026",
     type: "Full-Time",
     highlights: [
       "Engineered secure, production-ready fintech applications for financial institutions.",
@@ -32,7 +32,7 @@ const experiences: ExperienceItem[] = [
     company: "Softroniics",
     role: "Flutter Intern",
     location: "India",
-    period: "2024 - 2025",
+    period: "August/2024 - January/2025",
     type: "Internship",
     highlights: [
       "Developed cross-platform iOS and Android mobile interfaces using Flutter & Dart.",

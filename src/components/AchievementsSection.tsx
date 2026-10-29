@@ -6,7 +6,7 @@ import { Award, Smartphone, CheckCircle, Flame } from "lucide-react";
 const stats = [
   {
     icon: Flame,
-    value: "2+",
+    value: "1.5+",
     label: "Years Experience",
     subtext: "Commercial Flutter engineering",
   },

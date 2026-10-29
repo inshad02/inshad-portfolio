@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://muhammedinshad.dev"),
   title: "Muhammed Inshad | Flutter Developer",
   description:
-    "Flutter Developer with 2+ years of experience building secure, scalable fintech and business applications using Flutter, Riverpod, Firebase, REST APIs, and Clean Architecture.",
+    "Flutter Developer with 1.5+ years of experience building secure, scalable fintech and business applications using Flutter, Riverpod, Firebase, REST APIs, and Clean Architecture.",
   keywords: [
     "Muhammed Inshad",
     "Flutter Developer",

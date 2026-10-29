@@ -6,7 +6,7 @@ import { Code2, Cpu, Layers, Shield, Sparkles, Terminal } from "lucide-react";
 const highlights = [
   {
     icon: Code2,
-    title: "2+ Years Experience",
+    title: "1.5+ Years Experience",
     description: "Hands-on expertise engineering robust cross-platform mobile apps for production.",
   },
   {
@@ -85,7 +85,7 @@ export default function AboutSection() {
 
               <div className="space-y-4 text-neutral-300 leading-relaxed font-light text-base">
                 <p>
-                  I am a passionate <strong className="text-white font-medium">Flutter Developer</strong> with over 2 years of commercial software engineering experience based in Dubai. My core focus lies in crafting sleek, pixel-perfect, and ultra-responsive mobile applications for iOS and Android.
+                  I am a passionate <strong className="text-white font-medium">Flutter Developer</strong> with over 1.5 years of commercial software engineering experience based in Dubai. My core focus lies in crafting sleek, pixel-perfect, and ultra-responsive mobile applications for iOS and Android.
                 </p>
                 <p>
                   Having engineered production-grade mobile platforms for major organizations like <strong className="text-[#D4AF37]">Dukhan Bank</strong> (FinTech) and <strong className="text-[#D4AF37]">Omnicore Digital Solutions</strong>, I specialize in combining scalable <strong className="text-white">Clean Architecture</strong> with intuitive state management like <strong className="text-[#D4AF37]">Riverpod</strong>.

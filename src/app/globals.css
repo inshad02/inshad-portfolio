@@ -133,3 +133,10 @@
   animation: pulseGlow 4s ease-in-out infinite;
 }
 
+/* Hide custom mouse pointer on mobile screens and touch devices */
+@media (max-width: 768px), (pointer: coarse), (hover: none) {
+  .custom-cursor {
+    display: none !important;
+  }
+}
+
